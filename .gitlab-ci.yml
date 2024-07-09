@@ -1,0 +1,278 @@
+# # Define the stages for the CI/CD pipeline
+# stages:
+#   - clone
+#   # - deploy
+#   - post_deploy
+#   # - merge_to_release
+#   # - alter_db
+ 
+# # Clone the repository or pull changes if the directory exists, excluding specific branches
+
+# clone: 
+#   stage: clone
+#   script:
+#     - |
+#       if [ -d /var/www/Multitenant_api ]; then
+#         if [ "$(ls -A /var/www/Multitenant_api)" ]; then
+
+#           # Directory is not empty, stash local changes, set Git configuration, and then perform a git pull
+#           sudo git -C /var/www/Multitenant_api fetch
+#           sudo git -C /var/www/Multitenant_api checkout api-dev
+#           sudo git -C /var/www/Multitenant_api stash
+#           sudo git -C /var/www/Multitenant_api config pull.rebase true  # Set pull strategy to rebase
+#           sudo git -C /var/www/Multitenant_api pull;
+
+#         else
+ 
+#           # Directory is empty, remove it and then clone the repository
+#           sudo rm -rf /var/www/Multitenant_api;
+#           sudo git clone -b api-dev "https://${username}:${password}@gitlab.com/ramee-projects/MultiTenant_Ddsnacks.git" /var/www/Multitenant_api;
+ 
+#         fi
+
+#       else
+ 
+#         # Directory doesn't exist, clone the repository
+#         sudo git clone -b api-dev "https://${username}:${password}@gitlab.com/ramee-projects/MultiTenant_Ddsnacks.git" /var/www/Multitenant_api;
+ 
+#       fi
+ 
+#   only:
+#     refs:
+#       - tags
+#       - pushes
+
+#   except:
+#     - ravi
+#     - akshay
+ 
+#   tags:
+#     - cnc-dev-runner
+ 
+# # # Deploy the code to the developement server, excluding specific branches..
+
+# # deploy:
+# #   stage: deploy
+# #   script:
+# #     - sudo rsync -av --exclude='.git' --exclude='builds/' /var/www/CNC-dev-test/ /var/www/cnc-dev/
+ 
+# #   only:
+# #     refs:
+# #       - tags
+# #       - pushes
+
+# #   except:
+# #     - ravi
+# #     - akshay
+ 
+# #   tags:
+# #     - cnc-dev-runner
+
+# post_deploy:
+#   stage: post_deploy
+#   script:
+#     - sudo chown -R www-data:www-data /var/www/Multitenant_api
+#     #- sudo chmod -R 777 /var/www/Multitenant_api/assets/images/
+#     #- sudo chmod -R 777 /var/www/Multitenant_api/assets/uploads/
+#     #- sudo chown -R www-data:www-data /var/www/Multitenant_api/assets/images/
+#     # - sudo chown -R www-data:www-data /var/www/cnc-dev/assets/uploads/
+    
+
+#   only:
+#     refs:
+#       - tags
+#       - pushes
+
+#   except:
+#     - ravi
+#     - akshay
+#     - release
+#     - main
+ 
+#   tags:
+#     - cnc-dev-runner
+ 
+# # Merge the changes to the release branch, excluding specific branches
+
+# # merge_to_release:
+# #   stage: merge_to_release
+# #   script:
+# #     - sudo git -C /var/www/CNC-dev-test fetch
+# #     - sudo git -C /var/www/CNC-dev-test checkout release
+# #     - sudo git -C /var/www/CNC-dev-test merge -X theirs --no-ff --no-edit developer
+# #     - sudo git -C /var/www/CNC-dev-test rm -f .gitlab-ci.yml
+# #     - sudo git -C /var/www/CNC-dev-test commit -am "Excluding .gitlab-ci.yml from merge"
+# #     - sudo git -C /var/www/CNC-dev-test push origin release
+ 
+# #   only:
+# #     refs:
+# #       - tags
+
+# #   except:
+# #     - ravi
+# #     - akshay
+ 
+# #   tags:
+# #      - cnc-dev-runner
+
+# # Perform alterations in the database, excluding specific branches....
+
+# # alter_db:
+# #   stage: alter_db
+# #   script:
+# #      - cd /home/gitlab-runner
+# #      - ./cncdb_connect.sh
+ 
+# #   only:
+# #    changes:
+# #       - DB_scripts/cnc_script1.sql
+
+# #   except:
+# #     refs:
+# #       - tags
+# #       - ravi
+# #       - akshay
+ 
+# #   tags:
+# #      - cnc-dev-runner
+
+
+# Define the stages for the CI/CD pipeline
+stages:
+  - clone
+  # - deploy
+  - post_deploy
+  # - merge_to_release
+  # - alter_db
+ 
+# Clone the repository or pull changes if the directory exists, excluding specific branches
+
+clone: 
+  stage: clone
+  script:
+    - |
+      if [ -d /app/www/Multitenant_api ]; then
+        if [ "$(ls -A /app/www/Multitenant_api)" ]; then
+
+          # Directory is not empty, stash local changes, set Git configuration, and then perform a git pull
+          sudo git -C /app/www/Multitenant_api fetch
+          sudo git -C /app/www/Multitenant_api checkout api-dev
+          sudo git -C /app/www/Multitenant_api stash
+          sudo git -C /app/www/Multitenant_api config pull.rebase true  # Set pull strategy to rebase
+          sudo git -C /app/www/Multitenant_api pull;
+
+        else
+ 
+          # Directory is empty, remove it and then clone the repository
+          sudo rm -rf /app/www/Multitenant_api;
+          sudo git clone -b api-dev "https://${username}:${password}@gitlab.com/ramee-projects/MultiTenant_Ddsnacks.git" /app/www/Multitenant_api;
+ 
+        fi
+
+      else
+ 
+        # Directory doesn't exist, clone the repository
+        sudo git clone -b api-dev "https://${username}:${password}@gitlab.com/ramee-projects/MultiTenant_Ddsnacks.git" /app/www/Multitenant_api;
+ 
+      fi
+ 
+  only:
+    refs:
+      - tags
+      - pushes
+
+  except:
+    - ravi
+    - akshay
+    - ravi_api
+ 
+  tags:
+    - cnc-dev-runner
+ 
+# # Deploy the code to the developement server, excluding specific branches..
+
+# deploy:
+#   stage: deploy
+#   script:
+#     - sudo rsync -av --exclude='.git' --exclude='builds/' /var/www/CNC-dev-test/ /var/www/cnc-dev/
+ 
+#   only:
+#     refs:
+#       - tags
+#       - pushes
+
+#   except:
+#     - ravi
+#     - akshay
+ 
+#   tags:
+#     - cnc-dev-runner
+
+post_deploy:
+  stage: post_deploy
+  script:
+    - sudo chown -R www-data:www-data /app/www/Multitenant_api
+    #- sudo chmod -R 777 /var/www/Multitenant_api/assets/images/
+    #- sudo chmod -R 777 /var/www/Multitenant_api/assets/uploads/
+    #- sudo chown -R www-data:www-data /var/www/Multitenant_api/assets/images/
+    # - sudo chown -R www-data:www-data /var/www/cnc-dev/assets/uploads/
+    
+
+  only:
+    refs:
+      - tags
+      - pushes
+
+  except:
+    - ravi
+    - akshay
+    - release
+    - main
+    - ravi_api
+ 
+  tags:
+    - cnc-dev-runner
+ 
+# Merge the changes to the release branch, excluding specific branches.
+
+# merge_to_release:
+#   stage: merge_to_release
+#   script:
+#     - sudo git -C /var/www/CNC-dev-test fetch
+#     - sudo git -C /var/www/CNC-dev-test checkout release
+#     - sudo git -C /var/www/CNC-dev-test merge -X theirs --no-ff --no-edit developer
+#     - sudo git -C /var/www/CNC-dev-test rm -f .gitlab-ci.yml
+#     - sudo git -C /var/www/CNC-dev-test commit -am "Excluding .gitlab-ci.yml from merge"
+#     - sudo git -C /var/www/CNC-dev-test push origin release
+ 
+#   only:
+#     refs:
+#       - tags
+
+#   except:
+#     - ravi
+#     - akshay
+ 
+#   tags:
+#      - cnc-dev-runner
+
+# Perform alterations in the database, excluding specific branches....
+
+# alter_db:
+#   stage: alter_db
+#   script:
+#      - cd /home/gitlab-runner
+#      - ./cncdb_connect.sh
+ 
+#   only:
+#    changes:
+#       - DB_scripts/cnc_script1.sql
+
+#   except:
+#     refs:
+#       - tags
+#       - ravi
+#       - akshay
+ 
+#   tags:
+#      - cnc-dev-runner
