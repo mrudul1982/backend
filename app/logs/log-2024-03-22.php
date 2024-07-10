@@ -1,0 +1,793 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2024-03-22 11:04:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:04:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:04:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "First_Name *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Last_Name *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Company *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Phone *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Email *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Vat_No *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Address 1 *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Address 2"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "City *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "State *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Country *"
+ERROR - 2024-03-22 11:04:15 --> Could not find the language line "Postal_code *"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Statistics"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Sales Order"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "VAT"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Delivered Invoice"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "VAT "
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Sage Push Invoice"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "VAT"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Pending Sage Push Invoice"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "VAT"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "New Sales"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Order Accepted"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Picklist Generated"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Picking Confirmed"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Manifest Generated"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Delivery Confirmed"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Total Sage Push "
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Top Sales"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Max Value Order"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Today Sales"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Order Date"
+ERROR - 2024-03-22 11:04:38 --> Could not find the language line "Order Id"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:04:47 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:04:48 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:04:49 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:04:49 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:04:49 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:04:49 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:04:49 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:04:49 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:04:54 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 336
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Short Name"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Pack"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product_Price 1"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product_Price 2"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product_Price 3"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product_Price 4"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product_Price 5"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Product_Price 6"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Price"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Bay"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Rack"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Inner_EAN_Number"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Outer_EAN_Number"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Is Alcohol related product"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Is Tobacco related product"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Alcohol Classification"
+ERROR - 2024-03-22 11:04:54 --> Could not find the language line "Tobacco Classification"
+ERROR - 2024-03-22 11:04:54 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\themes\default\admin\views\products\add.php 1180
+ERROR - 2024-03-22 11:06:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 135
+ERROR - 2024-03-22 11:06:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 336
+ERROR - 2024-03-22 11:06:03 --> Query error: Column 'is_discount_allow' cannot be null - Invalid query: INSERT INTO `sma_products` (`code`, `barcode_symbology`, `name`, `type`, `brand`, `category_id`, `subcategory_id`, `cost`, `price`, `unit`, `inner_ean_number`, `outer_ean_number`, `sale_unit`, `purchase_unit`, `tax_rate`, `tax_method`, `alert_quantity`, `track_quantity`, `details`, `product_details`, `supplier1`, `supplier1price`, `supplier2`, `supplier2price`, `supplier3`, `supplier3price`, `supplier4`, `supplier4price`, `supplier5`, `supplier5price`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`, `promotion`, `split_quantity`, `promo_price`, `start_date`, `end_date`, `supplier1_part_no`, `supplier2_part_no`, `supplier3_part_no`, `supplier4_part_no`, `supplier5_part_no`, `file`, `slug`, `size`, `pack`, `featured`, `bay`, `rack`, `hsn_code`, `hide`, `second_name`, `status`, `manufacturer`, `split`, `split_price`, `price_1`, `price_2`, `price_3`, `price_4`, `price_5`, `is_discount_allow`, `percentage`, `quantity`) VALUES ('48890271', 'code128', 'Ramee', 'standard', '5', '32', NULL, '2.00', '2.00', '1', '', '', '1', '1', '5', NULL, '', '1', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '', '', '', '', '', NULL, '', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, '', '48890271', '12', '12', NULL, '2', '2', NULL, 0, NULL, '1', '', '0', '', '2', '2', '2', '2', '2', NULL, '', 0)
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Short Name"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Pack"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product_Price 1"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product_Price 2"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product_Price 3"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product_Price 4"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product_Price 5"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Product_Price 6"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Price"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Bay"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Rack"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Inner_EAN_Number"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Outer_EAN_Number"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Is Alcohol related product"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Is Tobacco related product"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Alcohol Classification"
+ERROR - 2024-03-22 11:06:03 --> Could not find the language line "Tobacco Classification"
+ERROR - 2024-03-22 11:06:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\themes\default\admin\views\products\add.php 1180
+ERROR - 2024-03-22 11:06:17 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 135
+ERROR - 2024-03-22 11:06:17 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 336
+ERROR - 2024-03-22 11:06:17 --> Query error: Column 'is_discount_allow' cannot be null - Invalid query: INSERT INTO `sma_products` (`code`, `barcode_symbology`, `name`, `type`, `brand`, `category_id`, `subcategory_id`, `cost`, `price`, `unit`, `inner_ean_number`, `outer_ean_number`, `sale_unit`, `purchase_unit`, `tax_rate`, `tax_method`, `alert_quantity`, `track_quantity`, `details`, `product_details`, `supplier1`, `supplier1price`, `supplier2`, `supplier2price`, `supplier3`, `supplier3price`, `supplier4`, `supplier4price`, `supplier5`, `supplier5price`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`, `promotion`, `split_quantity`, `promo_price`, `start_date`, `end_date`, `supplier1_part_no`, `supplier2_part_no`, `supplier3_part_no`, `supplier4_part_no`, `supplier5_part_no`, `file`, `slug`, `size`, `pack`, `featured`, `bay`, `rack`, `hsn_code`, `hide`, `second_name`, `status`, `manufacturer`, `split`, `split_price`, `price_1`, `price_2`, `price_3`, `price_4`, `price_5`, `is_discount_allow`, `percentage`, `quantity`) VALUES ('48890271', 'code128', 'Ramee', 'standard', '5', '32', NULL, '2.00', '2.00', '1', '', '', '', '', '5', NULL, '', '1', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '', '', '', '', '', NULL, '', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, '', '48890271', '12', '12', NULL, '2', '2', NULL, 0, NULL, '1', '', '0', '', '2', '2', '2', '2', '2', NULL, '', 0)
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Short Name"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Pack"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product_Price 1"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product_Price 2"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product_Price 3"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product_Price 4"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product_Price 5"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Product_Price 6"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Price"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Bay"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Rack"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Inner_EAN_Number"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Outer_EAN_Number"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Is Alcohol related product"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Is Tobacco related product"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Alcohol Classification"
+ERROR - 2024-03-22 11:06:17 --> Could not find the language line "Tobacco Classification"
+ERROR - 2024-03-22 11:06:17 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\themes\default\admin\views\products\add.php 1180
+ERROR - 2024-03-22 11:11:01 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 126
+ERROR - 2024-03-22 11:11:01 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 327
+ERROR - 2024-03-22 11:11:01 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\admin\Products_model.php 107
+ERROR - 2024-03-22 11:11:01 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\Site.php 1297
+ERROR - 2024-03-22 11:11:01 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\Site.php 1297
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:11:01 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:11:02 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:03 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:03 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:03 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:03 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:03 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:03 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:19 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:19 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:22 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:23 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:30 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:30 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:31 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:31 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:31 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:31 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:31 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:31 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:31 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:31 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:31 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:31 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:32 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:32 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:33 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:33 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:33 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:33 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:33 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:33 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:34 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:34 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:34 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:34 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:34 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:41 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:42 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:42 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:42 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:42 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:42 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:42 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:11:43 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:11:43 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:11:43 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:11:43 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:16:54 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\MultiTenant_Ddsnacks\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2024-03-22 11:16:54 --> Unable to connect to the database
+ERROR - 2024-03-22 11:17:04 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\MultiTenant_Ddsnacks\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2024-03-22 11:17:04 --> Severity: Warning --> session_start(): Failed to initialize storage module: user (path: C:\xampp\tmp) C:\xampp\htdocs\MultiTenant_Ddsnacks\system\libraries\Session\Session.php 143
+ERROR - 2024-03-22 11:17:08 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 329
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Short Name"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Pack"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product_Price 1"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product_Price 2"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product_Price 3"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product_Price 4"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product_Price 5"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Product_Price 6"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Price"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Bay"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Rack"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Inner_EAN_Number"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Outer_EAN_Number"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Is Alcohol related product"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Is Tobacco related product"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Alcohol Classification"
+ERROR - 2024-03-22 11:17:08 --> Could not find the language line "Tobacco Classification"
+ERROR - 2024-03-22 11:17:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\themes\default\admin\views\products\add.php 1180
+ERROR - 2024-03-22 11:17:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\MultiTenant_Ddsnacks\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2024-03-22 11:17:14 --> Unable to connect to the database
+ERROR - 2024-03-22 11:17:14 --> Query error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ - Invalid query: SET SESSION sql_mode = ""
+ERROR - 2024-03-22 11:17:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\xampp\htdocs\MultiTenant_Ddsnacks\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2024-03-22 11:17:24 --> Unable to connect to the database
+ERROR - 2024-03-22 11:17:24 --> Query error: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ - Invalid query: SELECT *
+FROM `sma_settings`
+ERROR - 2024-03-22 11:17:24 --> Severity: error --> Exception: Call to a member function num_rows() on bool C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\Site.php 309
+ERROR - 2024-03-22 11:17:28 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 128
+ERROR - 2024-03-22 11:17:28 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 329
+ERROR - 2024-03-22 11:17:28 --> Query error: Column 'is_discount_allow' cannot be null - Invalid query: INSERT INTO `sma_products` (`code`, `barcode_symbology`, `name`, `type`, `brand`, `category_id`, `subcategory_id`, `cost`, `price`, `unit`, `inner_ean_number`, `outer_ean_number`, `sale_unit`, `purchase_unit`, `tax_rate`, `tax_method`, `alert_quantity`, `track_quantity`, `details`, `product_details`, `supplier1`, `supplier1price`, `supplier2`, `supplier2price`, `supplier3`, `supplier3price`, `supplier4`, `supplier4price`, `supplier5`, `supplier5price`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`, `promotion`, `split_quantity`, `promo_price`, `start_date`, `end_date`, `supplier1_part_no`, `supplier2_part_no`, `supplier3_part_no`, `supplier4_part_no`, `supplier5_part_no`, `file`, `slug`, `size`, `pack`, `featured`, `bay`, `rack`, `hsn_code`, `hide`, `second_name`, `status`, `manufacturer`, `split`, `split_price`, `price_1`, `price_2`, `price_3`, `price_4`, `price_5`, `is_discount_allow`, `percentage`, `quantity`) VALUES ('17702423', 'code128', 'Ramee', 'standard', '5', '32', NULL, '2.00', '2.00', '1', '', '', '', '', '5', NULL, '', '1', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '', '', '', '', '', NULL, '', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, '', '17702423', '12', '12', NULL, '2', '2', NULL, 0, NULL, '1', '', NULL, '', '2', '2', '2', '2', '2', NULL, '', 0)
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Short Name"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Pack"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product_Price 1"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product_Price 2"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product_Price 3"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product_Price 4"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product_Price 5"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Product_Price 6"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Price"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Bay"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Rack"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Inner_EAN_Number"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Outer_EAN_Number"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Is Alcohol related product"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Is Tobacco related product"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Alcohol Classification"
+ERROR - 2024-03-22 11:17:28 --> Could not find the language line "Tobacco Classification"
+ERROR - 2024-03-22 11:17:28 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\themes\default\admin\views\products\add.php 1180
+ERROR - 2024-03-22 11:18:02 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 128
+ERROR - 2024-03-22 11:18:02 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 329
+ERROR - 2024-03-22 11:18:02 --> Query error: Column 'is_discount_allow' cannot be null - Invalid query: INSERT INTO `sma_products` (`code`, `barcode_symbology`, `name`, `type`, `brand`, `category_id`, `subcategory_id`, `cost`, `price`, `unit`, `inner_ean_number`, `outer_ean_number`, `sale_unit`, `purchase_unit`, `tax_rate`, `tax_method`, `alert_quantity`, `track_quantity`, `details`, `product_details`, `supplier1`, `supplier1price`, `supplier2`, `supplier2price`, `supplier3`, `supplier3price`, `supplier4`, `supplier4price`, `supplier5`, `supplier5price`, `cf1`, `cf2`, `cf3`, `cf4`, `cf5`, `cf6`, `promotion`, `split_quantity`, `promo_price`, `start_date`, `end_date`, `supplier1_part_no`, `supplier2_part_no`, `supplier3_part_no`, `supplier4_part_no`, `supplier5_part_no`, `file`, `slug`, `size`, `pack`, `featured`, `bay`, `rack`, `hsn_code`, `hide`, `second_name`, `status`, `manufacturer`, `split`, `split_price`, `price_1`, `price_2`, `price_3`, `price_4`, `price_5`, `is_discount_allow`, `percentage`, `quantity`) VALUES ('17702423', 'code128', 'Ramee', 'standard', '5', '32', NULL, '2.00', '2.00', '1', '', '', '', '', '5', NULL, '', '1', '', '', '', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '', '', '', '', '', '', NULL, '', NULL, NULL, NULL, '', NULL, NULL, NULL, NULL, '', '17702423', '12', '12', NULL, '2', '2', NULL, 0, NULL, '1', '', NULL, '', '2', '2', '2', '2', '2', NULL, '', 0)
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Short Name"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Pack"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product_Price 1"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product_Price 2"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product_Price 3"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product_Price 4"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product_Price 5"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Product_Price 6"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Price"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Bay"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Rack"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Inner_EAN_Number"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Outer_EAN_Number"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Manufacturer"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Is Alcohol related product"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Is Tobacco related product"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Alcohol Classification"
+ERROR - 2024-03-22 11:18:02 --> Could not find the language line "Tobacco Classification"
+ERROR - 2024-03-22 11:18:02 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\themes\default\admin\views\products\add.php 1180
+ERROR - 2024-03-22 11:19:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 128
+ERROR - 2024-03-22 11:19:12 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\controllers\admin\Products.php 329
+ERROR - 2024-03-22 11:19:12 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\admin\Products_model.php 107
+ERROR - 2024-03-22 11:19:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\Site.php 1297
+ERROR - 2024-03-22 11:19:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\models\Site.php 1297
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Add PO"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "GRN"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Purchases History"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "New_Sales"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Front Sheet"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Order History"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Picking"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Create Picking"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Picking List"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Picking History"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Short QTY"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Proforma Invoice"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Dispatch & Deliveries"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Add Deliveries"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Create Manifest"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Manifest_List"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Delivery History"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Account"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Push_to_Sage"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "All_Push_invoice"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Payment_Received"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Payment History"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Customer Payments"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Customer_Ledger"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Payment_Ledger"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Bank Deposit"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Bank Ledger"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Report"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Customer Not Order"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Driver Report"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Stock Report"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Inventory Sales Report"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Missing Orders wise Report"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Missing Products wise Report"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Stock Take"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Start Stock Take"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Stock Take List"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Master"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Products Price Variation"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Product Categories"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Customers Credit Facility"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Broucher"
+ERROR - 2024-03-22 11:19:12 --> Could not find the language line "Size"
+ERROR - 2024-03-22 11:19:13 --> Could not find the language line "Previous Pricing"
+ERROR - 2024-03-22 11:19:14 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:19:14 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:19:14 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:19:14 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:19:15 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:19:15 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:19:15 --> Could not find the language line "Shop"
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 204
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 205
+ERROR - 2024-03-22 11:19:15 --> Severity: Warning --> count(): Parameter must be an array or an object that implements Countable C:\xampp\htdocs\MultiTenant_Ddsnacks\app\libraries\Tec_cart.php 211
+ERROR - 2024-03-22 11:19:15 --> Could not find the language line "Shop"
